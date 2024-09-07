@@ -1,3 +1,8 @@
+#creating a database
+create databade student_data;
+use student_data;
+create table students (id int primary, name varchar(255), marks int, student_rank int);
+
 from tkinter import *
 import mysql.connector
 
